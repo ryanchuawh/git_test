@@ -1,0 +1,103 @@
+#main {
+    font-family: Helvetica, sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#image {
+    width: 30%;
+}
+
+#img-caption {
+    font-size: 130%;
+    font-family: Arial;
+    text-align: justify;
+    padding-left: 10%;
+}
+
+#projects {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#project-headers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 150%;
+}
+
+#project-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 10%;
+}
+
+#food {
+    width: 20%;
+}
+
+#media {
+    width: 20%;
+}
+
+#books {
+    width: 20%;
+}
+
+#law {
+    width: 20%;
+}
+
+/* The code below is WIP, will revisit in the future current issue is that I cannot align the text relative to the images above */
+
+#project-caption {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    text-align: justify;
+    padding-bottom: 10%;
+    display: none;
+}
+
+#foodcap {
+    width: 20%;
+}
+
+#media {
+    width: 20%;
+}
+
+#books {
+    width: 20%;
+}
+
+#law {
+    width: 20%;
+}
+
+/* Here ends where the WIP code is */
+
+#tribute-link {
+    display: flex;
+    justify-content: center;
+    border-top: solid;
+    padding: 20px;
+    background-color: rgb(244, 228, 6);
+}
